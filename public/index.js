@@ -38,7 +38,7 @@ function populateTable() {
     tr.innerHTML = `
       <td>${transaction.name}</td>
       <td>${transaction.value}</td>
-      <button onclick="testFunc()">Edit</button>
+      <button onclick="testFunc()">Add Workout Type</button>
     `;
     
     console.log(transactions.length);
@@ -177,7 +177,7 @@ function testFunc() {
   
 
   newButton = document.createElement("button");
-  newButton.innerHTML = `somethin`
+  newButton.innerHTML = `Add`
   newButton.setAttribute("onClick", "newTest()");
   newButton.setAttribute("id", "subButton");
   //newInput.addEventListener('submit', somethinFunction());
